@@ -43,12 +43,6 @@ while (true) {
 
 
 
-// De momento, tenemos el loop eterno de qué queremos hacer, para que siempre aparezca el pop up.
-// También tenemos la función de añadir nuevas tareas a un array y en el momento que se añade,
-// la consola diga lo que se ha añadido. Pero aparecen repetidos los elementos.
-// Así como la palabra "quit" para salir de bucle.
-// Queda por hacer: deletear tareas del array, hacer que aparezca el array completo indexado
-
 
 
 
