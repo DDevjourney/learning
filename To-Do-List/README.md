@@ -387,13 +387,5 @@ showTask(); // Carga tareas al iniciar
 
 ---
 
-### **6. Buenas Prácticas Implementadas**  
-1. **Prevención de XSS**:  
-   - Uso de `textContent` (en lugar de `innerHTML`) al crear `<li>` para evitar inyección de código.  
-2. **Manejo de Espacios**:  
-   - `trim()` evita tareas vacías con espacios en blanco.  
-3. **Persistencia Sincronizada**:  
-   - `saveData()` se llama tras **cualquier cambio** (agregar, marcar, eliminar).  
 
----
 
