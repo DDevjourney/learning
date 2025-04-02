@@ -12,18 +12,19 @@
     <!-- Primer bloque: añadir tareas con bloque de texto y botón de añadir -->
     <div class="tasks">
         <h2>To-Do List<img src = img/completed-task.png id = "UUImage"></h2>
+        <div class="row">
+            <input type="field" id="input-box" placeholder="Add your tasks">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <ul id = "list-container">
+<!-- 
+            <li class="checked">Task 1</li>
+            <li>Tass 2</li>
+            <li>Task 3</li>
+            -->
+        </ul>
     </div>    
-
-    
-    <!-- Segundo bloque: lista visible de las tareas añadidas, cada uno con un identificador único con un checkbox para marcar las tareas hechas-->
-     <ul>
-
-     </ul>
-    <!-- Tercer bloque: botón para eliminar las tareas -->
-     <!-- Todo debe guardarse en localStorage -->
-
-
-    
+  
     
     </div>
     <script src="app.js"></script>
