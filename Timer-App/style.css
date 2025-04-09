@@ -1,0 +1,90 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#ac02ef,#0fa2d3 );
+    padding: 10px;
+    display: flex;
+}
+
+.clock-input {
+    width: 50%;
+    max-width: 540px;
+    background: #ffffff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 30px;
+    border-radius: 10px;
+}
+
+.input-clocker {
+    display: flex;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+}
+
+.container {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 10rem;
+	width: 34rem;
+	background-color: transparent;
+	border-radius: 3px;
+	box-shadow: none;
+}
+
+.clock-column {
+	margin-right: 5rem;
+	text-align: center;
+	position: relative;
+
+	&::after {
+		display: block;
+		font-size: 36px;
+		font-weight: 200;
+		color: #131313;
+		position: absolute;
+	}
+	&:last-child {
+		&::after {
+			display: none;
+		}
+	}
+}
+
+.clock-column:last-child {
+	margin-right: 0;
+}
+
+input#time-to {
+	padding: 5px;
+	border: 0;
+	border-radius: 3px;
+	font-size: 16px;
+	font-family: monospace;
+	text-align: center;
+	color: #010101;
+	background-color: #fff;
+}
+
+.clock-timer {
+	color: #131313;
+	font-size: 36px;
+	line-height: 1;
+}
+
+.clock-label {
+	padding-top: 10px;
+	text-transform: uppercase;
+	color: #131313;
+	font-size: 14px;
+	text-align: center;
+	border-top: 1px solid rgba(19, 19, 19, 0.5);
+}
+
+.done {
+	color: #fff;
+	font-weight: 600;
+}
